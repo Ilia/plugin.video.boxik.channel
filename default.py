@@ -54,7 +54,7 @@ def main_list(params):
     if len(matches) == max_results:
         plugintools.add_item(action="main_list", title="More", url=next_page_url, folder=True)
 
-    plugintools.add_item(action="main_list", title="Coming Soon", url="", folder=True)
+    # plugintools.add_item(action="main_list", title="Coming Soon", url="", folder=True)
 
 
 def play(params):
